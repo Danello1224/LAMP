@@ -1,0 +1,44 @@
+
+*{
+    box-sizing: border-box;
+    margin: 4;
+    padding: 5;
+}
+
+h1{
+    font-size: 3rem;
+    border: double rgba(73, 173, 33, 0.668);
+}
+.Proyecto{
+    background-color:floralwhite;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    border: 3px groove red;
+    border-radius: 15px;
+}
+.Proyecto img
+{
+    width: 35%;
+    border-radius: 25px;
+
+}
+
+
+nav ul{
+    display: flex ;
+    justify-content: center;
+    border-radius: 15px;
+    list-style: none;
+    font-size: 2rem;
+}
+
+nav ul li{
+    margin-left: 10 px;
+    margin-right: 10 px;
+    padding: 10px 20 px;
+    border: 1px dashed indianred;
+    background-color: floralwhite;
+    border-radius: 15px;
+}
